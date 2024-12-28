@@ -1,0 +1,22 @@
+<p>student-list works!</p>
+
+<h1>Student details</h1>
+
+<table>
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Email</td>
+        <td>Mobile</td>
+    </tr>
+    <tr *ngFor="let students of students">
+<td>{{students.sid}}</td>
+<td>{{students.sname}}</td>
+<td>{{students.email}}</td>
+<td>{{students.mobile}}</td>
+    </tr>
+</table>
+
+<div>
+    <h1 routerLink="register">Student registeration</h1>
+</div>

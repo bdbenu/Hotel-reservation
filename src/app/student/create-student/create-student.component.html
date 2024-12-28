@@ -1,0 +1,25 @@
+<h1>Student</h1>
+
+<div>
+    <div>
+        <form  (ngSubmit)="onSubmit()">
+<div>
+    Id <input type="text" [(ngModel)]="student.sid" name="sid"/>
+</div>
+
+<div>
+    sname <input type="text" [(ngModel)]="student.sname" name="sname"/>
+</div>
+
+<div>
+    email <input type="text" [(ngModel)]="student.email" name="email"/>
+</div>
+
+<div>
+    mobile <input type="text" [(ngModel)]="student.mobile" name="mobile"/>
+</div>
+
+<button type="submit">Register</button>
+        </form>
+    </div>
+</div>
